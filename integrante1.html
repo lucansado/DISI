@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página de Integrante 1</title>
+</head>
+<body>
+  <header>
+    <h1>Nombre del Integrante 1</h1>
+  </header>
+  <p>Somos estudiantes universitarios.</p>
+  <figure>
+    <img src="https://via.placeholder.com/150" alt="Foto de Integrante 1" width="150" height="150">
+    <figcaption>Imagen de Integrante 1</figcaption>
+  </figure>
+  <section>
+    <h2>Aficiones</h2>
+    <ul>
+      <li>Leer</li>
+      <li>Jugar fútbol</li>
+      <li>Viajar</li>
+      <li>Pintar</li>
+      <li>Cocinar</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Asignaturas</h2>
+    <table border="1" summary="Lista de asignaturas cursadas por el integrante 1">
+      <caption>Asignaturas de Integrante 1</caption>
+      <thead>
+        <tr>
+          <th scope="col">Asignatura</th>
+          <th scope="col">Código</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Matemáticas</td><td>MAT101</td></tr>
+        <tr><td>Informática</td><td>INF102</td></tr>
+        <tr><td>Física</td><td>FIS103</td></tr>
+        <tr><td>Química</td><td>QUI104</td></tr>
+        <tr><td>Historia</td><td>HIS105</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2>Contacto</h2>
+    <form action="#" method="post" aria-label="Formulario de contacto">
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required aria-required="true"><br><br>
+
+      <label for="comentario">Comentario:</label><br>
+      <textarea id="comentario" name="comentario" rows="4" cols="50" aria-required="true" required></textarea><br><br>
+
+      <button type="submit">Enviar comentario</button>
+    </form>
+  </section>
+  <p>
+    <a href="https://www.universia.net/">Visita Universia (sitio externo)</a>
+  </p>
+  <nav aria-label="Volver a principal">
+    <a href="index.html">Volver a la página principal</a>
+  </nav>
+</body>
+</html>
