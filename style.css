@@ -84,12 +84,17 @@ nav a {
   font-weight: 600;
   padding: 0.5em 1.2em;
   border-radius: var(--border-radius);
-  transition: transform var(--transition-speed), background-color var(--transition-speed);
+  transition: transform var(--transition-speed), background-color var(--transition-speed), box-shadow var(--transition-speed);
 }
 
 nav a:hover {
   background-color: var(--hover-blue);
-  transform: translateY(-3px); /* Efecto sutil al pasar el ratón */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Keep the link text color consistent (names should stay white) */
+nav a:hover, nav a:focus, nav a:focus-visible {
+  color: var(--white);
 }
 
 /* --- Figuras e Imágenes --- */
