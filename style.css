@@ -281,3 +281,36 @@ nav a:focus-visible, button:focus-visible {
     font-weight: bold;
   }
 }
+
+/* --- Botón de Navegación Atrás --- */
+.back-nav {
+  margin-bottom: 1rem;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--celadon-blue);
+  color: var(--white);
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all var(--transition-speed);
+  box-shadow: 0 2px 8px rgba(0, 94, 143, 0.2);
+}
+
+.back-button:hover {
+  background-color: var(--hover-blue);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 94, 143, 0.3);
+}
+
+.back-button:focus-visible {
+  background-color: var(--hover-blue);
+  color: var(--white);
+  box-shadow: var(--focus-shadow);
+}
